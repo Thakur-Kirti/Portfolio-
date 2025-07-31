@@ -13,24 +13,44 @@
     footer { text-align: center; padding: 20px; background: #212529; color: white; }
   </style>
 </head>
-<body><!-- Navbar --><nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+<body>
+
+<!-- Navbar Start -->
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark shadow-sm">
   <div class="container">
-    <a class="navbar-brand" href="#">Kirti Thakur</a>
-    <div class="collapse navbar-collapse">
-      <ul class="navbar-nav ms-auto">
-        <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
-        <li class="nav-item"><a class="nav-link" href="#skills">Skills</a></li>
-        <li class="nav-item"><a class="nav-link" href="#projects">Projects</a></li>
-        <li class="nav-item"><a class="nav-link" href="#resume">Resume</a></li>
-        <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+    <a class="navbar-brand fw-bold" href="#">Kirti Thakur</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainNavbar" aria-controls="mainNavbar" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="mainNavbar">
+      <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link" href="#about">About</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#skills">skills</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#projects">Portfolio</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#resume">Resume</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#contact">Contact</a>
+        </li>
       </ul>
     </div>
   </div>
-</nav><!-- Hero Section --><section class="hero">
+</nav>
+<!-- Navbar End -->
+<!-- Hero Section -->
+ <section class="hero">
   <div class="container">
     <h1>Hello, I'm Kirti Thakur</h1>
     <p class="lead">Web Developer | PHP | WordPress</p>
-    <a href="#resume" class="btn btn-primary">View Resume</a>
+    <a href="imp/kirti thakur-1.pdf" class="btn btn-primary">View Resume</a>
   </div>
 </section>
   <!-- About Section -->
@@ -44,8 +64,8 @@
       I enjoy turning creative ideas into functional digital experiences. Whether it's developing dynamic web applications or customizing WordPress themes, I always focus on clean code and performance. I'm committed to continuous learning and staying updated with the latest trends in web development.
     </p>
     <p>
-      Currently, I’m building my portfolio with real-world projects and exploring freelance opportunities to collaborate with businesses and entrepreneurs.
-    </p>
+      <!--Currently, I’m building my portfolio with real-world projects and exploring freelance opportunities to collaborate with businesses and entrepreneurs.
+    --></p>
   </div>
 </section>
   
@@ -69,19 +89,36 @@
     <div class="row">
       <div class="col-md-4 mb-4">
         <div class="project-card">
-          <h5>Personal Portfolio</h5>
-          <p>A responsive personal website to showcase my work.</p>
-          <a href="#" class="btn btn-sm btn-outline-primary">Live Demo</a>
-          <a href="#" class="btn btn-sm btn-outline-dark">GitHub</a>
+          <img src="imp/1.jpg" class="card-img-top" alt="Laptop Shopping Website">
+          <h5 class="card-title">OCSS | DBMS - Based E-Commerce Website</h5><br>
+          <p class="card-text">A Modern E-Commerce site for laptop and accessories using PHP, MYSQL, BOOTSTRAP, JAVASCRIPT, HTML, CSS Includes product Listing, cart, checkout, and Admin panel.</p>
+          <!-- <a href="#" class="btn btn-sm btn-outline-dark">GitHub</a>-->
         </div>
       </div>
-      <!-- Add more project cards here -->
+      
+       <div class="col-md-4 mb-4">
+        <div class="project-card">
+          <img src="imp/2.jpg" class="card-img-top" alt="Blog Website">
+          <h5 class="card-title">WordPress Recipe Blog Website</h5><br>
+          <p class="card-text">A WordPress-Based blog with recipe Posts, and Responsive Layout, Designed with Elementor and Potimized.</p>
+          <!--<a href="#" class="btn btn-sm btn-outline-dark">GitHub</a>-->
+        </div>
+      </div>
+      
+       <div class="col-md-4 mb-4">
+        <div class="project-card">
+          <img src="imp/3.jpg" class="card-img-top" alt="polaroid Shopping Website">
+          <h5 class="card-title">Santra | DBMS - Based E-Commerce Website</h5><br>
+          <p class="card-text">A Creative online store with polaroid-style product cards. Built using PHP, MYSQL, HTML, CSS, JAVASCRIPT, BOOTSRAP with cart and user login features.</p>
+          <!--<a href="#" class="btn btn-sm btn-outline-dark">GitHub</a>-->
+        </div>
+      </div>
     </div>
   </div>
 </section><!-- Resume Section --><section id="resume" class="py-5 bg-light">
   <div class="container text-center">
     <h2>Resume</h2>
-    <a href="resume/kirti_resume.pdf" class="btn btn-success" download>Download My Resume</a>
+    <a href="imp/kirti thakur-1.pdf" class="btn btn-success" download>Download My Resume</a>
   </div>
 </section><!-- Contact Section --><section id="contact" class="py-5">
   <div class="container">
